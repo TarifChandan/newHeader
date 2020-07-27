@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>New Header</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="bg-video">
+            <video class="bg-video-content" autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+                This video is not suppoerted in your browser!
+            </video>
+        </div>
+
+        <nav class="main-nav">
+            <div class="main-nav__wrapper">
+                <div class="logo-box">
+                    <img src="logo.png" alt="Comapny Logo" class="logo">
+                </div>
+
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">Why visible?</a>
+                    </li>
+
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">
+                            <span>Product</span> 
+                            <svg class="nav-icon">
+                                <use xlink:href="sprite.svg#down-arrow"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">Templates</a>
+                    </li>
+
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">Pricing</a>
+                    </li>
+                    
+                    <li class="main-nav__item">
+                        <a href="#" class="main-nav__link">
+                            <span>Resources</span> 
+                            <svg class="nav-icon">
+                                <use xlink:href="sprite.svg#down-arrow"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+                <form class="submit-form">
+                    <button class="btn btn--sign-in">Sign in</button>
+                    <button class="btn btn--free-trial">Start your free trial</button>
+                </form>
+            </div>
+
+        </nav>
+    </header>
 
     <script src="script.js"></script>
 </body>
