@@ -22,7 +22,7 @@ body {
     background-position: 0% 20%;
     height: 100vh;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 .main-nav {
@@ -89,19 +89,15 @@ body {
 }
 
 .main-nav__link {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-transform: capitalize;
     text-decoration: none;
     color: #5b6973;
     padding: 1.4rem 0;
 }
 
-.main-nav__link {
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: #5b6973;
-    padding: 1.4rem 0;
+.main-nav__item {
+    background: red;
 }
 
 .nav-icon {
